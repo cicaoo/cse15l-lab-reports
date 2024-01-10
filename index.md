@@ -3,4 +3,4 @@ Hello, World!
 *Hello World!*
 # Different World Languages
 ## World Map
-![Image](https://www.worldometers.info/world-map/)
+![Image](https://gisgeography.com/wp-content/uploads/2023/01/World-Country-Map-scaled.jpg)
