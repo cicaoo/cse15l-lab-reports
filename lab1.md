@@ -65,23 +65,23 @@ cse15L
 yay
 yay
 ```
-When the command “cat” is run without any arguments, the working directory is /home/lecture1. <br> 
-When running the “cat” command without any arguments, the terminal prints out whatever output you type in until you exit out of the terminal. 
-This output is not an error. <br> <br>
+- When the command “cat” is run without any arguments, the working directory is /home/lecture1. <br> 
+- When running the “cat” command without any arguments, the terminal prints out whatever output you type in until you exit out of the terminal. <br> 
+- This output is not an error. <br> <br>
 
 ```
 [user@sahara ~/lecture1]$ cat messages
 cat: messages: Is a directory
 [user@sahara ~/lecture1]$ 
 ```
-When the command “cat” is run with a path to the directory messages, the working directory is /home/lecture1. <br>
-The result when running “cat” with a path to messages is an error message because “cat” doesn’t work with directories. Similarly, if “cat” was run with a path to lecture1, the result would also be an error. 
-This output is an error because “cat” prints out the contents of the file(s) given by the paths. The “cat” or command will not work with directories, and will instead work with .java files, .txt files, etc.
+- When the command “cat” is run with a path to the directory messages, the working directory is /home/lecture1. <br>
+- The result when running “cat” with a path to messages is an error message because “cat” doesn’t work with directories. Similarly, if “cat” was run with a path to lecture1, the result would also be an error. <br>
+- This output is an error because “cat” prints out the contents of the file(s) given by the paths. The “cat” or command will not work with directories, and will instead work with .java files, .txt files, etc. <br> <br>
 ```
 [user@sahara ~/lecture1/messages]$ cat zh-cn.txt
 你好世界
 [user@sahara ~/lecture1/messages]$
 ```
-When the command “cat” is run with a path to the file zh-cn.txt, the working directory is /home/lecture1/messages. 
-Running “cat” with a path to zh-cn.txt prints out the contents of zh-cn.txt which is “你好世界” (Hello World).
-This output is not an error. <br>
+- When the command “cat” is run with a path to the file zh-cn.txt, the working directory is /home/lecture1/messages.<br> 
+- Running “cat” with a path to zh-cn.txt prints out the contents of zh-cn.txt which is “你好世界” (Hello World).
+- This output is not an error. <br>
