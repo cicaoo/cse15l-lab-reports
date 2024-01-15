@@ -64,7 +64,6 @@ cse15L
 cse15L
 yay
 yay
-
 ```
 When the command “cat” is run without any arguments, the working directory is /home/lecture1. <br> 
 When running the “cat” command without any arguments, the terminal prints out whatever output you type in until you exit out of the terminal. 
@@ -81,9 +80,7 @@ This output is an error because “cat” prints out the contents of the file(s)
 ```
 [user@sahara ~/lecture1/messages]$ cat zh-cn.txt
 你好世界
-
 [user@sahara ~/lecture1/messages]$
-
 ```
 When the command “cat” is run with a path to the file zh-cn.txt, the working directory is /home/lecture1/messages. 
 Running “cat” with a path to zh-cn.txt prints out the contents of zh-cn.txt which is “你好世界” (Hello World).
