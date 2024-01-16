@@ -9,7 +9,7 @@ COMMANDS <br>
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
 ```
-- When the command "cd" was ran, the working directory was /home/lecture1. <br>
+- When the command "cd" was run, the working directory was /home/lecture1. <br>
 - Running the command "cd" without an argument switched the working directory to the root directory. <br>
 - This output is not an error. <br> <br>
   
@@ -17,7 +17,7 @@ COMMANDS <br>
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
-- When the command "cd" was ran, the working directory was /home. <br>
+- When the command "cd" was run, the working directory was /home. <br>
 - Running the command "cd" with an argument of lecture1 (which is a directory) switched the working directory to lecture1. <br>  
 - This output is not an error. <br> <br>
   
@@ -26,7 +26,7 @@ COMMANDS <br>
 bash: cd: lecture1/Hello.java: No such file or directory
 [user@sahara ~/lecture1]$
 ```
-- When the command "cd" was ran, the working directory was /home/lecture1. <br>
+- When the command "cd" was run, the working directory was /home/lecture1. <br>
 - Running the command "cd" with a path to the file lecture1 did not switch the working directory, and it remained at lecture1. <br>
 - This output is an error because the command "cd" cannot be used to switch a directory to a file. When "cd" is combined with an argument of a file but not a directory, the directory cannot be switched and that is why an error occurs. <br> <br>
 2) **ls** <br>
@@ -35,7 +35,7 @@ bash: cd: lecture1/Hello.java: No such file or directory
 Hello.class  Hello.java  messages  README
 [user@sahara ~/lecture1]$
 ```
-- When the command "ls" was ran, the working directory was /home/lecture1. <br>
+- When the command "ls" was run, the working directory was /home/lecture1. <br>
 - Running the command "ls" without any arguments lists out the folders and files in the given directory. In this case, "ls" lists out the files and folders in /home/lecture1.
 - This output is not an error. <br> <br>
 ```
@@ -65,7 +65,7 @@ cse15L
 yay
 yay
 ```
-- When the command “cat” is run without any arguments, the working directory is /home/lecture1. <br> 
+- When the command “cat” was run without any arguments, the working directory was /home/lecture1. <br> 
 - When running the “cat” command without any arguments, the terminal prints out whatever output you type in until you exit out of the terminal. <br> 
 - This output is not an error. <br> <br>
 
@@ -74,7 +74,7 @@ yay
 cat: messages: Is a directory
 [user@sahara ~/lecture1]$ 
 ```
-- When the command “cat” is run with a path to the directory messages, the working directory is /home/lecture1. <br>
+- When the command “cat” was run with a path to the directory messages, the working directory was /home/lecture1. <br>
 - The result when running “cat” with a path to messages is an error message because “cat” doesn’t work with directories. Similarly, if “cat” was run with a path to lecture1, the result would also be an error. <br>
 - This output is an error because “cat” prints out the contents of the file(s) given by the paths. The “cat” or command will not work with directories, and will instead work with .java files, .txt files, etc. <br> <br>
 ```
@@ -82,6 +82,6 @@ cat: messages: Is a directory
 你好世界
 [user@sahara ~/lecture1/messages]$
 ```
-- When the command “cat” is run with a path to the file zh-cn.txt, the working directory is /home/lecture1/messages.<br> 
+- When the command “cat” was run with a path to the file zh-cn.txt, the working directory was /home/lecture1/messages.<br> 
 - Running “cat” with a path to zh-cn.txt prints out the contents of zh-cn.txt which is “你好世界” (Hello World).
 - This output is not an error. <br>
